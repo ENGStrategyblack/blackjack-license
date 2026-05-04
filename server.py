@@ -7,7 +7,7 @@ import os
 app = FastAPI()
 
 # ✅ Bunları birazdan Gumroad'dan alıp dolduracağız
-GUMROAD_PRODUCT_ID = "BURAYA_PRODUCT_ID"
+GUMROAD_PRODUCT_ID = "Strategy"
 GUMROAD_API_KEY = "BURAYA_GUMROAD_API_KEY"
 
 class LicenseRequest(BaseModel):
